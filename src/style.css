@@ -1,10 +1,27 @@
-.footer,
-.header,
-.main {
-  background-color: orange;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.dark {
-  background-color: #333333;
-  color: #eaeaea;
+:root {
+  --color-dark: #333333;
+  --color-light-dark: #4b4b4b;
+  --color-light-dark-2: #6e6e6e;
+  --color-light: #eaeaea;
+
+  --spacing-small: 10px;
+  --spacing-normal: 16px;
+  --spacing-large: 20px;
+  --spacing-huge: 24px;
+}
+
+#root {
+  background-color: blue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url("src/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
