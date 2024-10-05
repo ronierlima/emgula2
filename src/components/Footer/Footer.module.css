@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--color-red);
+  color: var(--color-light);
+  padding: 0 var(--spacing-massive);
+}
+
+.footer__top {
+  padding: var(--spacing-massive);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-top-logo__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.footer-top__logo {
+  background-color: var(--color-light);
+  width: 300px;
+}
+
+.footer__bottom {
+  border-top: 1px solid var(--color-light);
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-small);
+}
