@@ -1,0 +1,10 @@
+.footer,
+.header,
+.main {
+  background-color: orange;
+}
+
+.dark {
+  background-color: #333333;
+  color: #eaeaea;
+}
