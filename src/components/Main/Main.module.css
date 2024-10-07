@@ -1,0 +1,108 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.section__sobre {
+  height: 500px;
+  margin: 0 auto;
+  background: url("../../assets/burger.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.section-sobre__container {
+  width: 100%;
+  background-color: #0707077e;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-sobre-container__title {
+  font-size: 8rem;
+  letter-spacing: var(--spacing-small);
+}
+
+.section__cardápio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-huge) 0;
+  width: 100%;
+  margin: 0 auto;
+  background: url("../../assets/bck-pratos.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.section-cardápio__title {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-massive);
+}
+
+.section-cardápio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  gap: var(--spacing-huge);
+}
+
+.section-cardápio-container__item {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: var(--color-light-dark-2);
+  border-radius: var(--spacing-small);
+  transition: transform 500ms;
+}
+
+.section-cardápio-container__item:hover {
+  transform: scale(1.1);
+}
+
+.section__contatos {
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-dark);
+  padding: var(--spacing-massive) 0;
+}
+
+.section-contatos__title {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-massive);
+}
+
+.section-contatos-container__icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacing-normal);
+  width: 100%;
+}
+
+.section-contatos__icons {
+  color: var(--color-light);
+  background-color: var(--color-red);
+  padding: 10px;
+  border-radius: 60px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.section-contatos__icons:hover {
+  transform: scale(1.3);
+}
+
+.dark {
+  background-color: var(--color-light-dark);
+  color: #eaeaea;
+}
